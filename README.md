@@ -26,13 +26,28 @@ $ python -m pip install -r requirements.txt
 
 ### Training
 
-Run `python trainer.py`.
+To train the model you should run:
 
-If you want to use the model with the HTML file provided you should run `porter model.pkl --js --pipe > model.js`, then go to the `model.js` file and copy the `layers, weights, bias` variables to the global scope.
+`$ python trainer.py`
+
+### For front end JS
+
+If you want to use the model in HTML, you should run `porter model.pkl --js --pipe > "public/js/model.js"`.
+
+After this, run `python port.py` and the estimator is ready to be used.
 
 ### Usage
 
-To try the `model.pkl` estimator, open the `index.html` file or go to this project's [github page](https://github.com/MartinKondor/DigitRecognizer/).
+To try the `model.pkl` estimator, go to this project's [github page](https://github.com/MartinKondor/DigitRecognizer/),
+or open the `index.html` in the main directory and remove the `/DigitRecognizer/` root from the public links, like 
+
+```
+/DigitRecognizer/public/css/main.css
+will be 
+public/css/main.css
+```
+
+after this you will be able to work with the `index.html` file localy on your computer. 
 
 ## Contributing
 

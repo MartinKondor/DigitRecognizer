@@ -1,0 +1,2 @@
+sklearn_porter==0.7.3
+scikit_learn==0.21.2

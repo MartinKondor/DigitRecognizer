@@ -5,17 +5,37 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Digit Recognizer AI</title>
-    <meta name="description" content="Digit Recognizer AI">
+    <meta name="description" content="Digit Recognizer">
     <meta name="author" content="Martin Kondor">
-    <link rel="stylesheet" href="/DigitRecognizer/public/css/main.css">
+    
+    <title>Digit Recognizer</title>
+    
+    <link rel="icon" sizes="115x93" href="https://martinkondor.github.io/img/icon.bmp">
+    <link rel="shortcut icon" sizes="115x93" href="https://martinkondor.github.io/img/icon.bmp">
+    <link rel="apple-touch-icon" sizes="115x93" href="https://martinkondor.github.io/img/icon.bmp">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
-    <script src="/DigitRecognizer/model.js"></script>
+    
+    <!-- Public sources -->
+    <link href="/DigitRecognizer/public/css/main.css" rel="stylesheet">
+    <script src="/DigitRecognizer/public/js/model.js"></script>
     <script src="/DigitRecognizer/public/js/main.js"></script>
 </head>
 <body>
-    <div id="board"></div>
-    <p id="prediction"></p>
+    <div class="container-fluid text-center mt-5">
+        <div id="board" class="mb-4"></div>
+        <h3>
+            Prediction: <span id="prediction" class="font-weight-bold"></span>
+        </h3>
+        <p>Press <i>space</i> to erase your drawing.</p>
+        
+        <footer class="footer mt-5">
+            <p class="small">
+                This project is made by <a href="https://MartinKondor.github.io/">Martin Kondor</a>,
+                see the <a href="https://github.com/MartinKondor/DigitRecognizer">GitHub</a> page for more information.
+            </p>
+        </footer>
+    </div>
 </body>
 </html>
