@@ -24,9 +24,15 @@ Dowload and install the dependencies with the command:
 $ python -m pip install -r requirements.txt
 ```
 
+### Training
+
+Run `python trainer.py`.
+
+If you want to use the model with the HTML file provided you should run `porter model.pkl --js --pipe > model.js`, then go to the `model.js` file and copy the `layers, weights, bias` variables to the global scope.
+
 ### Usage
 
-_coming soon_
+To try the `model.pkl` estimator, open the `index.html` file or go to this project's [github page](https://github.com/MartinKondor/DigitRecognizer/).
 
 ## Contributing
 
