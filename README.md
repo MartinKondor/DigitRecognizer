@@ -1,3 +1,5 @@
+<p align="center"><img src="public/img/DigitRecognizer.gif" width="450"></p>
+
 # DigitRecognizer
 
 [![Project Status](https://img.shields.io/badge/status-active-brightgreen.svg)](https://github.com/MartinKondor/DigitRecognizer/)
