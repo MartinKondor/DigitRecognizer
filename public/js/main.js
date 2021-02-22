@@ -1,8 +1,9 @@
 'use strict';
-const screenWidth = 200, screenHeight = 200;
+// const screenWidth = 200, screenHeight = 200;
+const screenWidth = 160, screenHeight = 160;
 let imageMatrix = [];
 let predicted_once = false;
-let strokeWeight = 23;
+let strokeWeight = 22;
 let drawnDigit, drawnImage;
 let model;
 
