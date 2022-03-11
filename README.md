@@ -4,7 +4,7 @@
 
 [![Project Status](https://img.shields.io/badge/status-active-brightgreen.svg)](https://github.com/MartinKondor/DigitRecognizer/)
 [![version](https://img.shields.io/badge/version-2019.07-brightgreen.svg)](https://github.com/MartinKondor/DigitRecognizer/)
-[![GitHub Issues](https://img.shields.io/github/issues/MartinKondor/MovieRecommender.svg)](https://github.com/MartinKondor/DigitRecognizer/issues)
+[![GitHub Issues](https://img.shields.io/github/issues/MartinKondor/DigitRecognizer.svg)](https://github.com/MartinKondor/DigitRecognizer/issues)
 ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-blue.svg)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
@@ -68,8 +68,6 @@ This project is open for any kind of contribution from anyone.
 ## Authors
 
 * **[Martin Kondor](https://github.com/MartinKondor)**
-
-<p align="center"><a href="https://www.patreon.com/bePatron?u=17006186" data-patreon-widget-type="become-patron-button"><img width="222" class="img-responsive" alt="Become a Patron!" title="Become a Patron!" src="https://martinkondor.github.io/img/become_a_patron_button.png"></a></p>
 
 # License
 
