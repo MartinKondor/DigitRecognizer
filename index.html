@@ -18,16 +18,24 @@
     
     <!-- Public sources -->
     <link href="public/css/main.css" rel="stylesheet">
-    <script src="public/js/model.js"></script>
-    <script src="public/js/main.js"></script>
+    <!-- <script src="public/js/model.js"></script> -->
+    <script src="public/js/api_main.js"></script>
 </head>
 <body>
     <div class="container-fluid text-center mt-5">
-        <div id="board" class="mb-4"></div>
+        <h1 class="mb-5">
+            Digit Recognizer AI
+        </h1>
+
+        <div id="board" class="mb-4" style="zoom: 0%;"></div>
         <h3>
             Prediction: <span id="prediction" class="font-weight-bold"></span>
         </h3>
-        <p>Press <i>space</i> to erase your drawing.</p>
+        <p>
+            Draw a digit in the box above.
+            <br />
+            Press <i>space</i> to erase your drawing.
+        </p>
         
         <footer class="footer mt-5">
             <p class="small">
